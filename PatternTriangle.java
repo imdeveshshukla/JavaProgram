@@ -6,3 +6,5 @@ public class PatternTriangle {
         
     }
 }
+
+// https://www.simplilearn.com/tutorials/java-tutorial/pattern-programs-in-java#pattern_1
