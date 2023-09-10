@@ -1,10 +1,11 @@
-import java.util.Scanner;
 
-public class Pattern3 {
+/**
+ * InvertedAndRotatePyramid
+ */
+public class InvertedAndRotatePyramid {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        for(int i = 5; i>0 ; i--)
+        int n = Integer.parseInt(args[0]);
+        for(int i = 1; i <=n; i++)
         {
             for(int j =1;j<=n-i;j++){
                 System.out.print("  ");
@@ -16,9 +17,3 @@ public class Pattern3 {
         }
     }
 }
-// 5
-// * * * * * 
-//   * * * *
-//     * * *
-//       * *
-//         *
