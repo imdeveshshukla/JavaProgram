@@ -11,3 +11,5 @@ class Pattern1{
         }
     }
 }   
+// fhjafhak
+// Hi
