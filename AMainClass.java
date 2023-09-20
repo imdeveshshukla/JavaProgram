@@ -23,6 +23,9 @@ public class AMainClass {
         //--------------HW. Subarray--------------
         // IntroToArray.Array8HomeWork.findSum(arr);
 
+        //--------------SubArray Sum--------------
+        IntroToArray.Array9.findMaxSubArrSum(arr);
+
 
         System.out.println("\n--------------My Array--------------");
         for (int i : arr) {
