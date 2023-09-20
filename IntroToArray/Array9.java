@@ -9,16 +9,19 @@ find the min and max of that sums*/
 public class Array9 {
     public static void findMaxSubArrSum(int a[])
     {
-        int sum,maxSum = Integer.MIN_VALUE;
+        int sum=0,maxSum = Integer.MIN_VALUE;
         for(int i = 0; i < a.length; i++)
         {
-            sum = 0;
             for(int j = i; j < a.length; j++)
             {
-                sum += a[j];
+                sum = 0;
+                for(int k = i; k<=j ; k++)
+                {
+                    sum += a[k];
+                }
+                if(maxSum < sum)
+                    maxSum = sum;
             }
-            if(maxSum < sum)
-                sum = maxSum;
         }
         System.out.println("Max Sum = "+ maxSum);
     }

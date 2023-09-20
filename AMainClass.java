@@ -1,8 +1,13 @@
 public class AMainClass {
     public static void main(String[] args) {
         int arr[] = {2,4,6,8,10};
+        int arr2[] = {1,-2,6,-1,3};
         int k = 10;
-
+        System.out.println("\n--------------My Array--------------");
+        for (int i : arr) {
+            System.out.print(i+" ");
+        }
+        System.out.println("\n----------------------------");
         //--------------Binary Search--------------------
         // int findElem = IntroToArray.Array5Bin.search(arr, k);
         // System.out.println(k+"'s index At = "+findElem);
@@ -20,16 +25,15 @@ public class AMainClass {
         //--------------Print SubArray--------------
         // IntroToArray.Array8.printSubArray(arr);
 
-        //--------------HW. Subarray--------------
-        // IntroToArray.Array8HomeWork.findSum(arr);
+        //--------------HW. Subarray Sum--------------
+        IntroToArray.Array8HomeWork.findSum(arr);
 
-        //--------------SubArray Sum--------------
-        IntroToArray.Array9.findMaxSubArrSum(arr);
+        //--------------SubArray Sum --------------
+        // IntroToArray.Array9.findMaxSubArrSum(arr);
+        // IntroToArray.Array9.findMaxSubArrSum(arr2);
 
-
-        System.out.println("\n--------------My Array--------------");
-        for (int i : arr) {
-            System.out.print(i+" ");
-        }
+        //--------------SubArray Sum More Optimal--------------
+        IntroToArray.Array10.findSumSubArr(arr);
+        
     }
 }
