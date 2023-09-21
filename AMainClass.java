@@ -26,14 +26,15 @@ public class AMainClass {
         // IntroToArray.Array8.printSubArray(arr);
 
         //--------------HW. Subarray Sum--------------
-        IntroToArray.Array8HomeWork.findSum(arr);
+        // IntroToArray.Array8HomeWork.findSum(arr2);
 
         //--------------SubArray Sum --------------
         // IntroToArray.Array9.findMaxSubArrSum(arr);
         // IntroToArray.Array9.findMaxSubArrSum(arr2);
 
         //--------------SubArray Sum More Optimal--------------
-        IntroToArray.Array10.findSumSubArr(arr);
+        // IntroToArray.Array10.findSumSubArr(arr);
+        // IntroToArray.Array10.findSumSubArr(arr2);
         
     }
 }
