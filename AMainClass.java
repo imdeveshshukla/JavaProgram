@@ -2,6 +2,7 @@ public class AMainClass {
     public static void main(String[] args) {
         int arr[] = {2,4,6,8,10};
         int arr2[] = {1,-2,6,-1,3};
+        int arr3[] = {-1,-2,-3};
         int k = 10;
         System.out.println("\n--------------My Array--------------");
         for (int i : arr) {
@@ -32,9 +33,13 @@ public class AMainClass {
         // IntroToArray.Array9.findMaxSubArrSum(arr);
         // IntroToArray.Array9.findMaxSubArrSum(arr2);
 
-        //--------------SubArray Sum More Optimal--------------
+        //--------------SubArray Sum More Optimal usign Prefix Array--------------
         // IntroToArray.Array10.findSumSubArr(arr);
         // IntroToArray.Array10.findSumSubArr(arr2);
-        
+
+        //--------------SubArray Sum Using KadansAlgo Most Optimal--------------
+        IntroToArray.Array11Kadan.findSum(arr);
+        IntroToArray.Array11Kadan.findSum(arr2);
+        IntroToArray.Array11Kadan.findSum(arr3);
     }
 }
