@@ -1,2 +1,2 @@
-
-        IntroToArray.Array7.makePair(arr);
+6,8,10};
+        // int arr2[] = {1,-
