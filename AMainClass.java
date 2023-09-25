@@ -1,11 +1,14 @@
+import IntroToArray.BuyandSellStocks;
+
 public class AMainClass {
     public static void main(String[] args) {
         // int arr[] = {2,4,6,8,10};
         // int arr2[] = {1,-2,6,-1,3};
-        int arr3[] = {4,2,0,6,3,2,5};
-        int arr4[] = {6,9,9};
+        // int arr3[] = {4,2,0,6,3,2,5};
+        // int arr4[] = {6,9,9};
+        int arr5[] = {7,1,5,3,6,4};
         System.out.println("\n--------------My Array--------------");
-        for (int i : arr3) {
+        for (int i : arr5) {
             System.out.print(i+" ");
         }
         System.out.println("\n----------------------------");
@@ -47,8 +50,10 @@ public class AMainClass {
         // IntroToArray.TrapRainWater.findTrapWaterbyMeraMethod(arr3);
         // IntroToArray.TrapRainWater.findTrapWaterbyMeraMethod(arr4);
         System.out.println();
-        System.out.println(IntroToArray.TrapRainWater.findTrapWaterbyDidiMethod(arr3));
-        System.out.println(IntroToArray.TrapRainWater.findTrapWaterbyDidiMethod(arr4));
+        // System.out.println(IntroToArray.TrapRainWater.findTrapWaterbyDidiMethod(arr3));
+        // System.out.println(IntroToArray.TrapRainWater.findTrapWaterbyDidiMethod(arr4));
+
+        IntroToArray.BuyandSellStocks.meraMethod(arr5);
         
     }
 }
