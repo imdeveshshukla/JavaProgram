@@ -1,3 +1,4 @@
+package IntroToArray.Assignments;
 public class Ques1 {
     public static boolean isElementRepeating(int a[]){
         for(int i = 0; i < a.length; i++)
