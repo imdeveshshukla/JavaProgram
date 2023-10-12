@@ -1,3 +1,6 @@
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
 import IntroToArray.*;
 
 public class AMainClass {
@@ -6,11 +9,9 @@ public class AMainClass {
         // int arr2[] = {1,-2,6,-1,3};
         // int arr3[] = {4,2,0,6,3,2,5};
         // int arr4[] = {6,9,9};
-        int arr5[] = {7,1,5,3,6,4};
+        int arr5[] = {7,1,5,3,6};
         System.out.println("\n--------------My Array--------------");
-        for (int i : arr5) {
-            System.out.print(i+" ");
-        }
+        System.out.println(Arrays.toString(arr5));
         System.out.println("\n----------------------------");
         //--------------Binary Search--------------------
         // int findElem = IntroToArray.Array5Bin.search(arr, 10);
@@ -57,7 +58,11 @@ public class AMainClass {
 //09-10-2023
 //11-10-2023
         //--------------Buy and Sell Stocks Problem--------------
-        IntroToArray.BuyandSellStocks.meraMethod(arr5);
+        // IntroToArray.BuyandSellStocks.meraMethod(arr5);
+
+        //--------------Reverse an array--------------
+        IntroToArray.Reverse.arr(arr5);
+        System.out.println(Arrays.toString(arr5));
         
     }
 }
