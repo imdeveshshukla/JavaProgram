@@ -1,5 +1,7 @@
 package IntroToArray;
 
+import java.util.Arrays;
+
 /**
  * Array5Bin
  */
@@ -20,6 +22,7 @@ public class Array5Bin {
             else if(key>a[mid]){
                 start = mid+1;
             }
+            System.out.println(Arrays.toString(a));
         }
         return -1;
     }
