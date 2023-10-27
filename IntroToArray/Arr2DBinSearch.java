@@ -1,3 +1,4 @@
+package IntroToArray;
 public class Arr2DBinSearch {
     public static int findElem(int[][] a,int key){
         // int j = a.length - 1;
