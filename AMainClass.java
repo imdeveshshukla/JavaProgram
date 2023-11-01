@@ -2,17 +2,22 @@
 import java.util.Arrays;
 
 import IntroToArray.*;
-
 public class AMainClass {
     public static void main(String[] args) {
         // int arr[] = {2,4,6,8,10};
         // int arr2[] = {1,-2,6,-1,3};
         // int arr3[] = {4,2,0,6,3,2,5};
         // int arr4[] = {6,9,9};
-        int arr5[] = {7,1,5,3,6};
-        System.out.println("\n--------------My Array--------------");
-        System.out.println(Arrays.toString(arr5));
-        System.out.println("\n----------------------------");
+        // int arr5[] = {7,1,5,3,6};
+        int arr6[][] = {
+            {10,20,30,40},
+            {15,25,35,45},
+            {28,29,37,49},
+            {33,34,38,50}
+        };
+        // System.out.println("\n--------------My Array--------------");
+        // System.out.println(Arrays.toString(arr5));
+        // System.out.println("\n----------------------------");
         //--------------Binary Search--------------------
         // int findElem = IntroToArray.Array5Bin.search(arr, 10);
         // System.out.println(k+"'s index At = "+findElem);
@@ -62,8 +67,12 @@ public class AMainClass {
         // IntroToArray.BuyandSellStocks.meraMethod(arr5);
 
         //--------------Reverse an array--------------
-        IntroToArray.Reverse.arr(arr5);
-        System.out.println(Arrays.toString(arr5));
+        // IntroToArray.Reverse.arr(arr5);
+        // System.out.println(Arrays.toString(arr5));
         
+        //--------------Search in 2d Array Using Binary Search--------------
+
+        System.out.println(Arrays.toString(IntroToArray.Arr2DBinSearch.findElem(arr6,96)));
+
     }
 }
