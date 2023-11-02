@@ -3,7 +3,7 @@ import java.util.Arrays;
 
 import IntroToArray.*;
 public class AMainClass {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         // int arr[] = {2,4,6,8,10};
         // int arr2[] = {1,-2,6,-1,3};
         // int arr3[] = {4,2,0,6,3,2,5};
@@ -71,8 +71,12 @@ public class AMainClass {
         // System.out.println(Arrays.toString(arr5));
         
         //--------------Search in 2d Array Using Binary Search--------------
+        // System.out.println(Arrays.toString(IntroToArray.Arr2DBinSearch.findElem(arr6,96)));
 
-        System.out.println(Arrays.toString(IntroToArray.Arr2DBinSearch.findElem(arr6,96)));
+
+        //Bubble sorting 
+        IntroToArray.BubbleSort.sort(new int[]{10,9,8,5,1,4});
+        IntroToArray.BubbleSort.meraMethod(new int[]{10,9,8,5,1,4});
 
     }
 }
