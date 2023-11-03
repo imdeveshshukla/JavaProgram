@@ -75,8 +75,10 @@ public class AMainClass {
 
 
         //Bubble sorting 
-        IntroToArray.BubbleSort.sort(new int[]{10,9,8,5,1,4});
-        IntroToArray.BubbleSort.meraMethod(new int[]{10,9,8,5,1,4});
+        System.gc();
+        IntroToArray.BubbleSort.meraMethod(new int[]{1,2,3,4,5});
+        IntroToArray.BubbleSort.sort(new int[]{1,2,3,4,5});
+
 
     }
 }
