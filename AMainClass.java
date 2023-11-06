@@ -81,6 +81,12 @@ public class AMainClass {
         // IntroToArray.BubbleSort.sort(new int[]{1,2,3,4,5});
 
         //Selection Sorting
-        IntroToArray.SelectionSort.find(new int[]{5,5,5,1,2,3,2});
+        // IntroToArray.SelectionSort.find(new int[]{5,5,5,1,2,3,2});
+
+        //Insertion Sorting
+        // IntroToArray.InsertionSort.sort(new int[]{5,5,5,1,2,3,2});
+
+        //Cycle Sorting
+        IntroToArray.CycleSort.sortKarDo(new int[]{5,4,3,2,1});
     }
 }
