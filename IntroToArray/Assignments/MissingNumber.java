@@ -23,3 +23,4 @@ public class MissingNumber {
         System.out.println(Arrays.toString(a));
     }
 }
+//lol
