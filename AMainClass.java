@@ -87,6 +87,10 @@ public class AMainClass {
         // IntroToArray.InsertionSort.sort(new int[]{5,5,5,1,2,3,2});
 
         //Cycle Sorting
-        IntroToArray.CycleSort.sortKarDo(new int[]{5,4,3,2,1});
+        // IntroToArray.CycleSort.sortKarDo(new int[]{3,5,2,1,4});
+
+        //LeetCOde Easy Missing NUmber
+        IntroToArray.Assignments.MissingNumber.find(new int[]{1,1});
+
     }
 }

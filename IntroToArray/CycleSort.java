@@ -9,16 +9,13 @@ public class CycleSort {
         //WriteCodeHere........
         //...............
         //..............
-        for (int i = 0; i < a.length; i++) {
-            System.out.print("I m at loop"+i);
+        int i = 0;
+        while (i < a.length) {
             int correct = a[i] - 1;
-            while (a[correct]!=a[i])
-            {
-                System.out.println(a[i]+"/"+a[correct]);
-                Swap.number(a,i,correct);
-                System.out.print("After Swaping = ");
-                System.out.println(a[i]+"/"+a[correct]);
-            }
+            if(a[correct] != a[i])
+                Swap.number(a,correct,i);
+            else
+                i++;
         }
         System.out.println(Arrays.toString(a));
         long finish = System.nanoTime();

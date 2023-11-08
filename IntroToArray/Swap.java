@@ -1,6 +1,7 @@
 package IntroToArray;
 
-public class Swap {
+public class Swap
+{
     public static void number(int a[],int i,int j)
     {
         int temp = a[i];
