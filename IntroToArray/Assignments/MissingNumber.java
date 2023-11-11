@@ -12,7 +12,6 @@ public class MissingNumber {
         for(int i = 0; i < a.length; )
         {
             int correct = a[i]-1;
-            System.out.println(a[i]+" = "+correct);
             if(a[i]!=a[correct])        
             {
                 IntroToArray.Swap.number(a, i, correct);

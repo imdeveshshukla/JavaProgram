@@ -90,7 +90,10 @@ public class AMainClass {
         // IntroToArray.CycleSort.sortKarDo(new int[]{3,5,2,1,4});
 
         //LeetCOde Easy Missing NUmber
-        IntroToArray.Assignments.MissingNumber.find(new int[]{1,1});
+        IntroToArray.Assignments.MissingNumber.find(new int[]{2,5,9,6,9,3,8,9,7,1});
+
+        //LeetCode Medium find the duplicate number
+        IntroToArray.Assignments.leetcode_287.findDuplicate(new int[]{2,5,9,6,9,3,8,9,7,1});
 
     }
 }
