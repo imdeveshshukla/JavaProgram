@@ -96,7 +96,8 @@ public class AMainClass {
         // IntroToArray.Assignments.leetcode_287.findDuplicate(new int[]{2,5,9,6,9,3,8,9,7,1});
 
         //LeetCode Hard 41.FindMissingPositiveNumber
-        IntroToArray.Leetcode.FirstMissingNum.find(new int[]{7,8,9,10,12});
+        int d = IntroToArray.Leetcode.FirstMissingNum.find(new int[]{7,8,1,2,9,10,12});
+        System.out.println(d);
 
     }
 }
