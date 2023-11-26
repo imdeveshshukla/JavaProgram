@@ -1,5 +1,6 @@
 // import java.lang.reflect.Array;
 import java.util.Arrays;
+import LinkedList.MeraLinkedList;
 
 import IntroToArray.*;
 public class AMainClass {
@@ -108,6 +109,14 @@ public class AMainClass {
         // Recursion.HelloWorld.say(3);
 
         //Fibonacci Number
-        System.out.println(Recursion.Fibonacci.find(100));
+        // System.out.println(Recursion.Fibonacci.find(100));
+
+
+        //--------------------Single Linked List--------------------
+        MeraLinkedList test = new MeraLinkedList(10);
+        MeraLinkedList.insert(test, 10);
+        MeraLinkedList.insert(test, 100);
+        MeraLinkedList.insert(test, 1000);
+        MeraLinkedList.printL(test);
     }
 }
