@@ -111,12 +111,19 @@ public class AMainClass {
         //Fibonacci Number
         // System.out.println(Recursion.Fibonacci.find(100));
 
+        //Binary Search using recursion
+        // System.out.println(Recursion.BinSearch.find(new int[]{1,2,3,4,5}, 5, 0, 4));
+
+        //--------------------Bit manipulation--------------------
+
+        //Magic Number
+        BitManipultation.MagicNum.find(10);
 
         //--------------------Single Linked List--------------------
-        MeraLinkedList test = new MeraLinkedList(10);
-        MeraLinkedList.insert(test, 10);
-        MeraLinkedList.insert(test, 100);
-        MeraLinkedList.insert(test, 1000);
-        MeraLinkedList.printL(test);
+        // MeraLinkedList test = new MeraLinkedList(10);
+        // MeraLinkedList.insert(test, 10);
+        // MeraLinkedList.insert(test, 100);
+        // MeraLinkedList.insert(test, 1000);
+        // MeraLinkedList.printL(test);
     }
 }
