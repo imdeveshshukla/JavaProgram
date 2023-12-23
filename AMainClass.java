@@ -106,7 +106,7 @@ public class AMainClass {
         // IntroToString.CheckPalindrome.isIt("abba");
 
         //--------------------Recursion--------------------
-        // Recursion.HelloWorld.say(3);
+        System.out.println("Number = "+Recursion.HelloWorld.say(10));
 
         //Fibonacci Number
         // System.out.println(Recursion.Fibonacci.find(100));
@@ -117,7 +117,9 @@ public class AMainClass {
         //--------------------Bit manipulation--------------------
 
         //Magic Number
-        BitManipultation.MagicNum.find(10);
+        // BitManipultation.MagicNum.find(10);
+        //Count DIgit without loop 
+        // BitManipultation.CountiDigit.search(6,2);
 
         //--------------------Single Linked List--------------------
         // MeraLinkedList test = new MeraLinkedList(10);
