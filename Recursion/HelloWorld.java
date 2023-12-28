@@ -1,11 +1,10 @@
 package Recursion;
 public class HelloWorld {
-    public static int say(int i)
+    public static void say(int i)
     {
-        if(i==1)
-            return 1;
+        if(i!=1)
+            say(i-1);
         
         System.out.println("Number = "+i);
-        return say(--i);
     }
 }

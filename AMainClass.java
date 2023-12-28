@@ -106,7 +106,7 @@ public class AMainClass {
         // IntroToString.CheckPalindrome.isIt("abba");
 
         //--------------------Recursion--------------------
-        System.out.println("Number = "+Recursion.HelloWorld.say(10));
+        Recursion.HelloWorld.say(5);
 
         //Fibonacci Number
         // System.out.println(Recursion.Fibonacci.find(100));
