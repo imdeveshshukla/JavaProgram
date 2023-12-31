@@ -106,8 +106,20 @@ public class AMainClass {
         // IntroToString.CheckPalindrome.isIt("abba");
 
         //--------------------Recursion--------------------
-        Recursion.HelloWorld.say(5);
+        // Recursion.HelloWorld.say(5);
 
+        // System.out.println(Recursion.Factorial.findMy(4));
+        // System.out.println(Recursion.Factorial.findActual(4));
+
+        //Sumof Digit using recursion
+        // System.out.println(Recursion.sumofDigit.find(1342));
+        
+        //Reverse using recursion
+        // System.out.println(Recursion.findReverseofNumber.find2(1442));
+        // System.out.print(" "+Recursion.findReverseofNumber.getrev());
+
+        //Count numebr of Zero 
+        System.out.println(Recursion.countZero.start(102, 0));
 
         //Fibonacci Number
         // System.out.println(Recursion.Fibonacci.find(100));
