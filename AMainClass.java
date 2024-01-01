@@ -119,7 +119,7 @@ public class AMainClass {
         // System.out.print(" "+Recursion.findReverseofNumber.getrev());
 
         //Count numebr of Zero 
-        System.out.println(Recursion.countZero.start(102, 0));
+        System.out.println(Recursion.countZero.start(010101));
 
         //Fibonacci Number
         // System.out.println(Recursion.Fibonacci.find(100));
