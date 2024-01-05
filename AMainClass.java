@@ -1,4 +1,5 @@
 // import java.lang.reflect.Array;
+import java.util.ArrayList;
 import java.util.Arrays;
 import LinkedList.MeraLinkedList;
 
@@ -119,8 +120,18 @@ public class AMainClass {
         // System.out.print(" "+Recursion.findReverseofNumber.getrev());
 
         //Count numebr of Zero 
-        System.out.println(Recursion.countZero.start(010101));
+        // System.out.println(Recursion.countZero.start(010101));
 
+        //FInd if array is sorted or not
+        
+        // boolean ans = Recursion.isSorted.isIt(new int[]{1,2,2,75,100},0);
+        // System.out.print(ans);
+
+        //Linear Search
+        System.out.println(Recursion.linearSearch.find(new int[]{1,2,2,75,100},0, 2, new ArrayList<>()));
+
+        //LinearSearch2
+        System.out.println(Recursion.linearSearch.find2(new int[]{1,2,2,75,100},0, 100));
         //Fibonacci Number
         // System.out.println(Recursion.Fibonacci.find(100));
 

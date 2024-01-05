@@ -1,87 +1,36 @@
-import java.lang.*;
-class TempCode {
-    public static String convertOptimal(String s, int numRows) {
-
-        if (numRows == 1) return s;
-
-        StringBuilder ret = new StringBuilder();
-        int n = s.length();
-        int cycleLen = 2 * numRows - 2;
-
-        for (int i = 0; i < numRows; i++) {
-            for (int j = 0; j + i < n; j += cycleLen) {
-                ret.append(s.charAt(j + i));
-                if (i != 0 && i != numRows - 1 && j + cycleLen - i < n)
-                    ret.append(s.charAt(j + cycleLen - i));
-            }
-        }
-        return ret.toString();
-    }
-    public static String convert(String s, int numRows) {
-        int pattern = 0;
-        String str = "";
-        System.out.println("I am At function");
-        if(numRows>=3)
+import java.util.*;
+class TempCode{
+    static boolean isPalindrome(String s){
+        int k = s.length()-1;
+        for(int i=0;i<(s.length())/2;i++)
         {
-            for(int i=3;i<=numRows;i++)
-            {
-                pattern += 1;
-            }
-            
-            pattern =pattern + numRows;
-            int k = pattern-2;
-            System.out.println(pattern);
-            for (int i = 0; i < numRows; i++) {
-                int j = i;
-                int l = i;
-                boolean sw = true; 
-                if(i==(numRows-1) || i==0){
-                    while(j<s.length()){
-                        str+= s.charAt(j);
-                        j = j+pattern;
-                    }
-                }
-                else{
-                    
-                    while (j<s.length()) {
-                        str+=s.charAt(j);
-                        if(sw)
-                        {
-                            j = j+k;
-                            sw = false;
-                        }
-                        else
-                        {
-                            l = l + pattern;
-                            j = l;
-                            sw = true;
-                        }
-                        
-                    }
-                    System.out.println();
-                    k = k - 2;
-                }
-            }
-            return str;
+            if(s.charAt(i)!=s.charAt(k))
+                return false;
+            k--;
         }
-        else if(numRows == 2)
-        {
-            for (int i = 0; i < s.length(); i=i+2) 
-                str+=s.charAt(i);
-            for (int i = 1; i < s.length(); i=i+2) 
-                str+=s.charAt(i);
-
-            return str;
-        }
-        else{
-            return s;
-        }
-
+        return true;
     }
-    public static void main(String[] args){
-        String s = "PAYPALISHIRING";
-        System.out.println("____________Actual Ans____________ "+s);
-        // convert("PAYPALISHIRING", 3);
-        System.out.println(convertOptimal(s, 6));
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String s = sc.next(),a = "";
+        int l = s.length();
+        int total = (l*(l+1))/2;
+        String ans[] = new String[total];
+        boolean found = false;
+        int index = 0;
+        for(int i=0;i<s.length();i++){
+            for(int j=s.length();j>i;j--){
+                a = s.substring(i,j);
+                
+                System.out.println(a);
+                if(isPalindrome(a))
+                {
+                    found = true;
+                    ans[index] = a;
+                    index++;
+                }
+            }   
+        }
+        System.out.println(Arrays.toString(ans));
     }
 }
