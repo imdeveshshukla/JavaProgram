@@ -140,6 +140,11 @@ public class AMainClass {
         //Binary Search using recursion
         // System.out.println(Recursion.BinSearch.find(new int[]{1,2,3,4,5}, 5, 0, 4));
 
+        //Search in Rotated Array
+        System.out.println(LeetCode.SearchRotatedArr.find(new int[]{5,6,7,8,9,1,2,3}, 3));
+        //Search in Rotated Array using recursion
+        System.out.println(Recursion.SearchRotatedArr.find(new int[]{5,6,7,8,9,1,2,3}, 3, 0, 7));
+
         //--------------------Bit manipulation--------------------
 
         //Magic Number
