@@ -141,9 +141,24 @@ public class AMainClass {
         // System.out.println(Recursion.BinSearch.find(new int[]{1,2,3,4,5}, 5, 0, 4));
 
         //Search in Rotated Array
-        System.out.println(LeetCode.SearchRotatedArr.find(new int[]{5,6,7,8,9,1,2,3}, 3));
+        // System.out.println(LeetCode.SearchRotatedArr.find(new int[]{5,6,7,8,9,1,2,3}, 3));
         //Search in Rotated Array using recursion
-        System.out.println(Recursion.SearchRotatedArr.find(new int[]{5,6,7,8,9,1,2,3}, 3, 0, 7));
+        // System.out.println(Recursion.SearchRotatedArr.find(new int[]{5,6,7,8,9,1,2,3}, 3, 0, 7));
+
+        //PATTERN PRINTING USING RECURSION
+        //* * * *
+        //* * *
+        //* *
+        //*
+        // Recursion.Pattrn1.printPat(4, 0);
+
+        //BUBBLE SORT USIGN RECURSION
+        int a[] = {4,3,8,1,0,1};
+        // Recursion.BubbleSort.karo(a, 4, 0);
+        
+        //SELECTION SORT USING RECURSION
+        Recursion.SelectionSort.karo(a, 5, 0, 0);
+        System.out.println(Arrays.toString(a));
 
         //--------------------Bit manipulation--------------------
 

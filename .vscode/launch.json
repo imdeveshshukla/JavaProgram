@@ -1,0 +1,126 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "AMainClass",
+            "request": "launch",
+            "mainClass": "AMainClass",
+            "projectName": "JavaProgram_56a2e949"
+        },
+        {
+            "type": "java",
+            "name": "test",
+            "request": "launch",
+            "mainClass": "HashMap.test",
+            "projectName": "JavaProgram_56a2e949"
+        },
+        {
+            "type": "java",
+            "name": "HelloWorld",
+            "request": "launch",
+            "mainClass": "HelloWorld",
+            "projectName": "JavaProgram_56a2e949"
+        },
+        {
+            "type": "java",
+            "name": "HollowRectPattern",
+            "request": "launch",
+            "mainClass": "HollowRectPattern",
+            "projectName": "JavaProgram_56a2e949"
+        },
+        {
+            "type": "java",
+            "name": "Array1",
+            "request": "launch",
+            "mainClass": "IntroToArray.Array1",
+            "projectName": "JavaProgram_56a2e949"
+        },
+        {
+            "type": "java",
+            "name": "Array2",
+            "request": "launch",
+            "mainClass": "IntroToArray.Array2",
+            "projectName": "JavaProgram_56a2e949"
+        },
+        {
+            "type": "java",
+            "name": "Array3",
+            "request": "launch",
+            "mainClass": "IntroToArray.Array3",
+            "projectName": "JavaProgram_56a2e949"
+        },
+        {
+            "type": "java",
+            "name": "Ques1",
+            "request": "launch",
+            "mainClass": "IntroToArray.Assignments.Ques1",
+            "projectName": "JavaProgram_56a2e949"
+        },
+        {
+            "type": "java",
+            "name": "Ques3",
+            "request": "launch",
+            "mainClass": "IntroToArray.Assignments.Ques3",
+            "projectName": "JavaProgram_56a2e949"
+        },
+        {
+            "type": "java",
+            "name": "InvertedAndRotatePyramid",
+            "request": "launch",
+            "mainClass": "InvertedAndRotatePyramid",
+            "projectName": "JavaProgram_56a2e949"
+        },
+        {
+            "type": "java",
+            "name": "Pattern1",
+            "request": "launch",
+            "mainClass": "Pattern1",
+            "projectName": "JavaProgram_56a2e949"
+        },
+        {
+            "type": "java",
+            "name": "Pattern2",
+            "request": "launch",
+            "mainClass": "Pattern2",
+            "projectName": "JavaProgram_56a2e949"
+        },
+        {
+            "type": "java",
+            "name": "Pattern3",
+            "request": "launch",
+            "mainClass": "Pattern3",
+            "projectName": "JavaProgram_56a2e949"
+        },
+        {
+            "type": "java",
+            "name": "PatternTriangle",
+            "request": "launch",
+            "mainClass": "PatternTriangle",
+            "projectName": "JavaProgram_56a2e949"
+        },
+        {
+            "type": "java",
+            "name": "TempCode",
+            "request": "launch",
+            "mainClass": "TempCode",
+            "projectName": "JavaProgram_56a2e949"
+        },
+        {
+            "type": "java",
+            "name": "TempCodeRunner",
+            "request": "launch",
+            "mainClass": "TempCodeRunner",
+            "projectName": "JavaProgram_56a2e949"
+        }
+    ]
+}
