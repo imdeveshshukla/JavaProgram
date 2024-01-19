@@ -4,13 +4,14 @@ public class SelectionSort {
     public static void karo(int a[],int r,int c,int max){
         if(r<0)
             return;
-        if(r>c){
-            if(a[max]<a[c])
+        if(r>=c){
+            if(a[max]<=a[c])
                 karo(a, r, c+1, c);
             else
                 karo(a, r, c+1, max);
         }
         else{
+            System.out.println("Max = "+a[max]);
             int temp = a[max];
             a[max] = a[r];
             a[r] = temp;
