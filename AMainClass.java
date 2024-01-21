@@ -157,7 +157,10 @@ public class AMainClass {
         // Recursion.BubbleSort.karo(a, 4, 0);
         
         //SELECTION SORT USING RECURSION
-        Recursion.SelectionSort.karo(a, 6, 0, 0);
+        // Recursion.SelectionSort.karo(a, 6, 0, 0);
+
+        //MERGE SORTING USING RECURSION
+        a = Recursion.MergeSort.start(a);
         System.out.println(Arrays.toString(a));
 
         //--------------------Bit manipulation--------------------

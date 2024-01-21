@@ -5,7 +5,9 @@ import java.util.HashMap;
 public class test {
     // Java program to illustrate HashMap class 
 // of java.util package
-
+	public static void hatao(HashMap<String,Integer> m){
+		m.remove("vishal");
+	}
 
 	// Main driver method
 	public static void main(String[] args)
@@ -19,7 +21,9 @@ public class test {
 		map.put("vishal", 10);
 		map.put("sachin", 30);
 		map.put("vaibhav", 20);
+		System.out.println("Map  = "+map);
 
+		hatao(map);
 		// Print size and content of the Map
 		System.out.println("Size of map is:- "
 						+ map.size());
