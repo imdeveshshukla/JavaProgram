@@ -1,7 +1,5 @@
 package Recursion;
-
 import java.util.Arrays;
-
 public class MergeSort {
     public static int[] start(int a[]){
         if(a.length == 1)
