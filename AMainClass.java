@@ -49,7 +49,7 @@ public class AMainClass {
         // IntroToArray.Array10.findSumSubArr(arr2);
 
         //--------------SubArray Sum Using KadansAlgo Most Optimal--------------
-        // IntroToArray.Array11Kadan.findSum(arr);
+        // IntroToArray.Array11Kadan.findSum(new int[]{-1});
         // IntroToArray.Array11Kadan.findSum(arr2);
 
 
@@ -151,17 +151,16 @@ public class AMainClass {
         //* *
         //*
         // Recursion.Pattrn1.printPat(4, 0);
-
         //BUBBLE SORT USIGN RECURSION
-        int a[] = {4,3,8,1,0,1,1};
+        // int a[] = {4,3,8,1,0,1,1};
         // Recursion.BubbleSort.karo(a, 4, 0);
         
         //SELECTION SORT USING RECURSION
         // Recursion.SelectionSort.karo(a, 6, 0, 0);
 
         //MERGE SORTING USING RECURSION
-        a = Recursion.MergeSort.start(a);
-        System.out.println(Arrays.toString(a));
+        // a = Recursion.MergeSort.start(a);
+        // System.out.println(Arrays.toString(a));
 
         //--------------------Bit manipulation--------------------
 

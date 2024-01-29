@@ -13,7 +13,6 @@ public class Array11Kadan {
             /*But this solN will not work for every negative number,
             for every negative no it will give sol 0
             
-            
             we can use another loop for every negative number
             and if all are negative then we can
              print smallest negative number */
