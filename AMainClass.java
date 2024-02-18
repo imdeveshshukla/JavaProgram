@@ -137,6 +137,13 @@ public class AMainClass {
         //Fibonacci Number
         // System.out.println(Recursion.Fibonacci.find(100));
 
+        //--------------------Fibonacci using formula--------------------
+
+        // double a = Math.pow(((1+Math.sqrt(5))/2), 100); //Using recurrence relation
+        // double b = Math.pow(((1-Math.sqrt(5))/2), 50);
+        // double ans =1/Math.sqrt(5)*(a);  
+        // System.out.println(" 50th fibo num = "+ ans);
+        
         //Binary Search using recursion
         // System.out.println(Recursion.BinSearch.find(new int[]{1,2,3,4,5}, 5, 0, 4));
 
@@ -162,6 +169,13 @@ public class AMainClass {
         // a = Recursion.MergeSort.start(a);
         // System.out.println(Arrays.toString(a));
 
+        //--------------------Quick Sort Using Recursion--------------------
+
+        int arr[]= {5,3,2,4,1};
+        Recursion.QuickSort.find(0,arr.length-1,arr);
+        System.out.println(Arrays.toString(arr));
+        Arrays.sort(arr);
+
         //--------------------Bit manipulation--------------------
 
         //Magic Number
@@ -175,5 +189,8 @@ public class AMainClass {
         // MeraLinkedList.insert(test, 100);
         // MeraLinkedList.insert(test, 1000);
         // MeraLinkedList.printL(test);
+
+
+
     }
 }
