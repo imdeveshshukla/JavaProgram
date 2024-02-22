@@ -1,14 +1,29 @@
-import java.util.Arrays;
-
 public class TempCodeRunner {
-    public static void main(String[] args) {
-        int a[][] = new int[4][];
-      int n =4;
-      for(int i=0;i<n;i++){
-        for(int j=0;j<n;j++){
-          a[i][j] = 1;
-      }
+  public static String remA2(String a)
+  {
+    if(a.isEmpty())
+      return "";
+    
+    char ch = a.charAt(0);
+    
+    if(ch == 'a')
+      return a.substring(1,a.length());
+    else
+      return (ch +""+ a.substring(1,a.length()));
+  } 
+  public static String removeA(String ans,String a)
+  {
+    if(a=="")
+      return ans;
+    
+    if(a.charAt(0)!='a')
+    {
+      ans+=""+a.charAt(0); 
     }
-      System.out.println(Arrays.toString(a));
+    return removeA(ans, a.substring(1, a.length()));
+  }
+    public static void main(String[] args) {
+      System.out.println(removeA("","babbac"));
+      System.out.println(remA2("babbac"));
     }
 }
