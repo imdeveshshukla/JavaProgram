@@ -7,9 +7,9 @@ public class TempCodeRunner {
     char ch = a.charAt(0);
     
     if(ch == 'a')
-      return a.substring(1,a.length());
+      return remA2(a.substring(1,a.length()));
     else
-      return (ch +""+ a.substring(1,a.length()));
+      return remA2(ch +""+ a.substring(1,a.length()));
   } 
   public static String removeA(String ans,String a)
   {
@@ -23,7 +23,7 @@ public class TempCodeRunner {
     return removeA(ans, a.substring(1, a.length()));
   }
     public static void main(String[] args) {
-      System.out.println(removeA("","babbac"));
+      // System.out.println(removeA("","babbac"));
       System.out.println(remA2("babbac"));
     }
 }
