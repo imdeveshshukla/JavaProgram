@@ -60,12 +60,7 @@ public class AMainClass {
         System.out.println();
         // System.out.println(IntroToArray.TrapRainWater.findTrapWaterbyDidiMethod(arr3));
         // System.out.println(IntroToArray.TrapRainWater.findTrapWaterbyDidiMethod(arr4));
-//03-10-2023
-//06-10-2023
-//09-10-2023
-//11-10-2023
-//16-10-2023
-//05-11-23
+
         //--------------Buy and Sell Stocks Problem--------------
         // IntroToArray.BuyandSellStocks.meraMethod(arr5);
 
@@ -194,4 +189,11 @@ public class AMainClass {
 
     }
 }
+//03-10-2023
+//06-10-2023
+//09-10-2023
+//11-10-2023
+//16-10-2023
+//05-11-23
 // 01/03/24
+//05/03/24

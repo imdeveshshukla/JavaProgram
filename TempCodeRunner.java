@@ -22,8 +22,21 @@ public class TempCodeRunner {
     }
     return removeA(ans, a.substring(1, a.length()));
   }
+  public static String removeApple(String ans,String a)
+  {
+    if(a=="")
+      return ans;
+    
+    if(a.startsWith("apple"))
+    {
+      ans+=""+a.substring(5); 
+    }
+    return removeA(ans, a.substring(1, a.length()));
+  }
+  
     public static void main(String[] args) {
       // System.out.println(removeA("","babbac"));
       System.out.println(remA2("babbac"));
+      System.out.println(removeApple("", "appleeviewf"));
     }
 }
