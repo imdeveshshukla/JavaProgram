@@ -1,3 +1,4 @@
+import java.lang.reflect.Array;
 import java.util.*;
 class TempCode{
     public static boolean isPowerOfFour(int n) {
@@ -10,8 +11,15 @@ class TempCode{
 
     }
     public static void main(String[] args) {
-        int n = 64;
-        System.out.println(isPowerOfFour(n));
+        // int n = 64;
+        // System.out.println(isPowerOfFour(n));
+        ArrayList<Integer> left = new ArrayList<>();
+        left.add(2);
+        ArrayList<Integer> ans = left;
+        ArrayList<Integer> right = new ArrayList<>();
+        right.add(3);
+        ans = right;
+        System.out.println(ans+" "+left+" "+right);
         
     }
 }

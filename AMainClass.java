@@ -2,7 +2,7 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 import LinkedList.MeraLinkedList;
-
+import Recursion.subset;
 import IntroToArray.*;
 public class AMainClass {
     public static void main(String[] args) throws InterruptedException {
@@ -166,10 +166,20 @@ public class AMainClass {
 
         //--------------------Quick Sort Using Recursion--------------------
 
-        int arr[]= {5,3,2,4,1};
-        Recursion.QuickSort.find(0,arr.length-1,arr);
-        System.out.println(Arrays.toString(arr));
-        Arrays.sort(arr);
+        // int arr[]= {5,3,2,4,1};
+        // Recursion.QuickSort.find(0,arr.length-1,arr);
+        // System.out.println(Arrays.toString(arr));
+        // Arrays.sort(arr);
+
+
+        //--------------------Finding Subset(Subsequence of String)--------------------
+
+        // ArrayList<String> subseq  = Recursion.subset.find("abc");
+        // System.out.println(subseq+" Length = "+subseq.size());
+
+        //--------------------Finding Subset of ArrayUsing Iteration of Array--------------------
+
+        System.out.println("Subset of [1,2,3] = "+IntroToArray.Subset.find(new int[]{1,2,3}));
 
         //--------------------Bit manipulation--------------------
 
