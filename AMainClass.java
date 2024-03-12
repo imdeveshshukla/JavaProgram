@@ -11,12 +11,7 @@ public class AMainClass {
         // int arr3[] = {4,2,0,6,3,2,5};
         // int arr4[] = {6,9,9};
         // int arr5[] = {7,1,5,3,6};
-        int arr6[][] = {
-            {10,20,30,40},
-            {15,25,35,45},
-            {28,29,37,49},
-            {33,34,38,50}
-        };
+        
         // System.out.println("\n--------------My Array--------------");
         // System.out.println(Arrays.toString(arr5));
         // System.out.println("\n----------------------------");
@@ -69,7 +64,13 @@ public class AMainClass {
         // System.out.println(Arrays.toString(arr5));
         
         //--------------Search in 2d Array Using Binary Search--------------
-        // System.out.println(Arrays.toString(IntroToArray.Arr2DBinSearch.findElem(arr6,96)));
+        int arr6[][] = {
+            {10,20,30,40},
+            {15,25,35,45},
+            {28,29,37,49},
+            {33,34,38,50}
+        };
+        System.out.println(Arrays.toString(IntroToArray.Arr2DBinSearch.findElem(arr6,96)));
 
 
         //Bubble sorting 
@@ -179,8 +180,10 @@ public class AMainClass {
 
         //--------------------Finding Subset of ArrayUsing Iteration of Array--------------------
 
-        System.out.println("Subset of [1,2,3] = "+IntroToArray.Subset.find(new int[]{1,2,3}));
+        // System.out.println("Subset of [1,2,3] = "+IntroToArray.Subset.find(new int[]{1,2,3}));
 
+        System.out.println("Subset of [1,2,2] = "+IntroToArray.Subset.find2(new int[]{1,2,2,2})); //If duplicates elements present
+        
         //--------------------Bit manipulation--------------------
 
         //Magic Number
