@@ -10,16 +10,37 @@ class TempCode{
         return false;
 
     }
+    public static int pivotInteger(int n) {
+        int i = 1;
+        int suml = i,sumr = n;
+        while(i<=n)
+        {
+            if(suml==sumr && i==n)
+            {
+                return i;
+            }    
+            else if(suml<sumr)
+            {
+                i++;
+                suml +=i;
+            }
+            else
+            {
+                n--;
+                sumr+=n;
+            }
+        }
+        
+        return -1;
+    }
     public static void main(String[] args) {
         // int n = 64;
         // System.out.println(isPowerOfFour(n));
-        ArrayList<Integer> left = new ArrayList<>();
-        left.add(2);
-        ArrayList<Integer> ans = left;
-        ArrayList<Integer> right = new ArrayList<>();
-        right.add(3);
-        ans = right;
-        System.out.println(ans+" "+left+" "+right);
+        for(int i = 1;i<=1000;i++)
+        {
+            if(pivotInteger(i)!=-1)
+                System.out.println(i);
+        }
         
     }
 }

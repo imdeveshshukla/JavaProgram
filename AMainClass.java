@@ -64,13 +64,13 @@ public class AMainClass {
         // System.out.println(Arrays.toString(arr5));
         
         //--------------Search in 2d Array Using Binary Search--------------
-        int arr6[][] = {
-            {10,20,30,40},
-            {15,25,35,45},
-            {28,29,37,49},
-            {33,34,38,50}
-        };
-        System.out.println(Arrays.toString(IntroToArray.Arr2DBinSearch.findElem(arr6,96)));
+        // int arr6[][] = {
+        //     {10,20,30,40},
+        //     {15,25,35,45},
+        //     {28,29,37,49},
+        //     {33,34,38,50}
+        // };
+        // System.out.println(Arrays.toString(IntroToArray.Arr2DBinSearch.findElem(arr6,96)));
 
 
         //Bubble sorting 
@@ -182,8 +182,20 @@ public class AMainClass {
 
         // System.out.println("Subset of [1,2,3] = "+IntroToArray.Subset.find(new int[]{1,2,3}));
 
-        System.out.println("Subset of [1,2,2] = "+IntroToArray.Subset.find2(new int[]{1,2,2,2})); //If duplicates elements present
-        
+        // System.out.println("Subset of [1,2,2] = "+IntroToArray.Subset.find2(new int[]{1,2,2,2})); //If duplicates elements present
+
+        //--------------------Finding Permutation of String--------------------
+        //a,b,c => abc,acb,bca,bac,cab,cba
+
+        // Recursion.Permutation.find("","abc");
+        // System.out.println(Recursion.Permutation.findlist("", "abc"));
+
+        //--------------------17. Letter Combinations of a Phone Number(LeetCode Prob)--------------------
+
+
+            System.out.println(Recursion.Leetcode.Prob1.find("", "234"));
+
+
         //--------------------Bit manipulation--------------------
 
         //Magic Number
