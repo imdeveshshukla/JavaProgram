@@ -36,7 +36,7 @@ public class TempCodeRunner {
   
     public static void main(String[] args) {
       // System.out.println(removeA("","babbac"));
-      System.out.println(remA2("babbac"));
+      System.out.println(remA2("01"));
       System.out.println(removeApple("", "appleeviewf"));
     }
 }
