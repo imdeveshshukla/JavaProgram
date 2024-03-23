@@ -193,11 +193,37 @@ public class AMainClass {
         //--------------------17. Letter Combinations of a Phone Number(LeetCode Prob)--------------------
         // https://leetcode.com/problems/letter-combinations-of-a-phone-number/
 
-            System.out.println(Recursion.Leetcode.Prob1.find("", "234"));
+            // System.out.println(Recursion.Leetcode.Prob1.find("", "234"));
 
 
-        //
+        //--------------------Dice Problem --------------------
 
+        // Recursion.Leetcode.Prob2.find("",7);
+
+        
+        //--------------------Maze Problem--------------------
+
+        // System.out.println("Total Paths = "+Recursion.MazeProblem.Prob1.countPaths(3, 3));
+        // System.out.println(Recursion.MazeProblem.Prob1.findPaths("", 3, 3));
+
+
+        //--------------------Can Go Also Diagonal IN Maze--------------------
+        // System.out.println(Recursion.MazeProblem.Diagonal.findPaths("",3,3));
+        
+
+        //--------------------Obstacle--------------------
+            // System.out.println(Recursion.MazeProblem.Obstacle.findPaths("", 0, 0));
+
+
+            boolean maze[][] = {
+                {true,true,true},
+                {true,true,true},
+                {true,true,true}
+            };
+
+            System.out.println(Recursion.MazeProblem.Test.countPath("",0, 0, maze));
+            System.out.println(Recursion.MazeProblem.Test.count+" "+Recursion.MazeProblem.Test.backtrack);
+            // System.out.println(Recursion.MazeProblem.AllDir.findPaths("", 0, 0, maze));
         //--------------------Bit manipulation--------------------
 
         //Magic Number
