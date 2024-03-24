@@ -221,9 +221,9 @@ public class AMainClass {
                 {true,true,true}
             };
 
-            System.out.println(Recursion.MazeProblem.Test.countPath("",0, 0, maze));
-            System.out.println(Recursion.MazeProblem.Test.count+" "+Recursion.MazeProblem.Test.backtrack);
-            // System.out.println(Recursion.MazeProblem.AllDir.findPaths("", 0, 0, maze));
+            // System.out.println(Recursion.MazeProblem.Test.countPath("",0, 0, maze));
+            // System.out.println(Recursion.MazeProblem.Test.count+" "+Recursion.MazeProblem.Test.backtrack);
+            Recursion.MazeProblem.AllDir.findPaths("", 0, 0, maze);
         //--------------------Bit manipulation--------------------
 
         //Magic Number
