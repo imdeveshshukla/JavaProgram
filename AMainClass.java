@@ -223,7 +223,11 @@ public class AMainClass {
 
             // System.out.println(Recursion.MazeProblem.Test.countPath("",0, 0, maze));
             // System.out.println(Recursion.MazeProblem.Test.count+" "+Recursion.MazeProblem.Test.backtrack);
-            Recursion.MazeProblem.AllDir.findPaths("", 0, 0, maze);
+            // Recursion.MazeProblem.AllDir.findPaths("", 0, 0, maze);
+            // ArrayList<String> paths = Recursion.MazeProblem.AllDir.findPathList("", 0, 0, maze);
+            // System.out.println(paths);
+
+            Recursion.MazeProblem.AllDir.printPath("", 0, 0, maze, new int[maze.length][maze[0].length], 1);
         //--------------------Bit manipulation--------------------
 
         //Magic Number
